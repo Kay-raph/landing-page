@@ -1,16 +1,13 @@
 body,
 html{
     background-color: white;
-}
-.container{
-    margin: 10px;
+    margin: 0px;
 }
 .header{
     top: 0px;
     background-color: transparent;
     width: 100%;
-    right: 0px;
-    left: 0px;
+   
 }
 .header img{
     width: 90px;
@@ -24,7 +21,7 @@ h1{
     text-align: justify;
 }
 .port{
-    margin-left: 4%;
+    margin-left: 10%;
 }
 .proj1,
 .proj2,
