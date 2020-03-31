@@ -1,0 +1,83 @@
+body,
+html{
+    background-color: white;
+}
+.container{
+    margin: 10px;
+}
+.header{
+    top: 0px;
+    background-color: transparent;
+    width: 100%;
+    right: 0px;
+    left: 0px;
+}
+.header img{
+    width: 90px;
+}
+.header p{
+    font-size: 3em;
+    font-weight: bolder;
+}
+h1{
+    color: crimson;
+    text-align: justify;
+}
+.port{
+    margin-left: 4%;
+}
+.proj1,
+.proj2,
+.proj3,
+.proj4,
+.proj5,
+.proj6,
+.proj7,
+.proj8{
+    display: inline-block;
+    width: 20%;
+    padding: 100px 10px;
+    margin: 1%;
+    text-align: center;
+    box-shadow: 0 0 15px black;
+    background-color: lightblue;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.footer{
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 500px) {
+.proj1,
+.proj2,
+.proj3,
+.proj4,
+.proj5,
+.proj6,
+.proj7,
+.proj8{
+    display: inline-block;
+    width: 20%;
+    padding: 30px 5px;
+    margin: 0.8%;
+    text-align: center;
+    box-shadow: 0 0 15px black;
+    background-color: lightblue;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+}
